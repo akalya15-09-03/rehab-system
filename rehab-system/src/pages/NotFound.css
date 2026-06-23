@@ -1,0 +1,43 @@
+/* src/pages/NotFound.css */
+.not-found-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  padding: 24px;
+}
+
+.nf-inner {
+  text-align: center;
+  max-width: 480px;
+}
+
+.nf-code {
+  font-size: 8rem;
+  font-weight: 900;
+  color: var(--color-border);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 8px;
+}
+
+.nf-title {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: var(--color-text);
+}
+
+.nf-desc {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.nf-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
